@@ -1,0 +1,20 @@
+{
+	"name": "front-basic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"//": "Inspired by https://github.com/mcarneiro/static-lp-bootstrap",
+		"server": "browser-sync public -w --no-ghost-mode",
+		"dev": "concurrently 'npm:server' "
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.14",
+		"concurrently": "^6.0.2"
+	},
+	"dependencies": {
+	}
+}
